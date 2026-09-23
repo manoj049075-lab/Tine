@@ -1,0 +1,6 @@
+{
+  "name": "TimeMorph",
+  "description": "Daily selfie time-lapse and personal transformation tracking with ghost overlay and time capsule.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

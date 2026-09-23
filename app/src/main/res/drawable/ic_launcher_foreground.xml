@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Glowing orbital time-morph ring -->
+    <path
+        android:pathData="M 54,27 A 27,27 0 1,1 27,54"
+        android:strokeWidth="4"
+        android:strokeLineCap="round"
+        android:strokeColor="#00E676"
+        android:fillColor="#00000000" />
+
+    <path
+        android:pathData="M 27,54 A 27,27 0 0,1 54,27"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:strokeColor="#38BDF8"
+        android:fillColor="#00000000" />
+
+    <!-- Center face transformation silhouette -->
+    <!-- Head and shoulders minimal geometry -->
+    <path
+        android:pathData="M 54,36 A 8,8 0 1,0 54,52 A 8,8 0 1,0 54,36 Z"
+        android:fillColor="#00E676" />
+
+    <!-- Shoulders / frame base -->
+    <path
+        android:pathData="M 40,68 C 40,59 46,57 54,57 C 62,57 68,59 68,68 Z"
+        android:fillColor="#38BDF8" />
+
+    <!-- Shutter / aperture alignment dots -->
+    <path
+        android:pathData="M 54,23 L 54,26"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:strokeColor="#00E676" />
+    <path
+        android:pathData="M 85,54 L 82,54"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:strokeColor="#00E676" />
+    <path
+        android:pathData="M 54,85 L 54,82"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:strokeColor="#38BDF8" />
+    <path
+        android:pathData="M 23,54 L 26,54"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:strokeColor="#38BDF8" />
+
+    <!-- Timeline tick dot -->
+    <path
+        android:pathData="M 73,35 A 2.5,2.5 0 1,0 73,40 A 2.5,2.5 0 1,0 73,35 Z"
+        android:fillColor="#00E676" />
+</vector>
